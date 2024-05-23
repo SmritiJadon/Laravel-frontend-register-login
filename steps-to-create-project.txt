@@ -1,0 +1,13 @@
+1) create project folder:
+composer create-project --prefer-dist laravel/laravel login-register-api
+
+2) install library:
+composer require laravel/breeze --dev
+
+3) install package:
+php artisan breeze:install
+
+4) create tables:
+php artisan migrate
+
+php artisan serve
